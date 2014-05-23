@@ -1,0 +1,20 @@
+  session.txt*	Plugin for making and restoring sessions
+
+This plugin is based on the article "Go away and come back" on vim.wikia.com.
+
+http://vim.wikia.com/wiki/Go_away_and_come_back
+
+First off, the convenience of having this functionality in a plugin makes it
+easy to install.  Second, users are able to name their sessions.  The user is
+prompted for the session name when making or restoring a session.
+
+						*session-mappings*
+The following mapping are enabled by default
+
+nmap <leader>ms <Plug>MakeSession
+nmap <leader>rs <Plug>LoadSession
+
+						*session-license*
+Distributed under Vim's |license|.
+
+vim:tw=78:fo=tcq2:ts=8:ft=help:norl:
